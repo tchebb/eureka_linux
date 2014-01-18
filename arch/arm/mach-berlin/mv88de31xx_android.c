@@ -169,7 +169,7 @@ static __initdata struct board_config {
       "1M(block0)ro," /* flash config params */              \
       "8M(bootloader)ro," /* 8x copies */                    \
       "16M(kernel)"__RO__ ","                                \
-      "400M(rootfs)"__RO__ ","                               \
+      "400M(rootfs),"                                        \
       "300M(cache),"                                         \
       "1147M(userdata),"                                     \
       "48M(recovery),"                                       \
